@@ -1,0 +1,21 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.header{
+    background-image: black;
+    padding: 20px 0;
+    color: white;
+}
+
+.wrap{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
