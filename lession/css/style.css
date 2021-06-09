@@ -1,12 +1,14 @@
 *{
-   margin: 0;
-   padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .header{
-    background-image: black;
+    background-color: #020813;
     padding: 20px 0;
-    color: white;
 }
 
 .wrap{
@@ -18,4 +20,28 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo-link{
+    margin-right: 38px;
+
+}
+
+.promo{
+    background-color: #020A18;
+    min-height: 1295px;
+    background-position-x: -226px;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.promo-title{
+    margin: 0;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
 }
